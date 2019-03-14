@@ -188,12 +188,12 @@ def main(year, data_dir, annotations_dir, set, ignore_difficult_instances):
 
 if __name__ == '__main__':
   # tf.app.run()
-  data_dir = '/home/a/PycharmProjects/api_own/VOCdevkit/'
+  data_dir = '/VOCdevkit/'
   set = 'val'
-  annotations_dir = '/home/a/PycharmProjects/api_own/VOCdevkit/VOC2007/Annotations/'
+  annotations_dir = '/VOCdevkit/VOC2007/Annotations/'
   year = 'VOC2007'
-  output_path = '/home/a/PycharmProjects/api_own/pascal_val.record'
-  label_map_path = '/home/a/PycharmProjects/api_own/pascal_label_map.pbtxt'
+  output_path = '/pascal_val.record'
+  label_map_path = '/pascal_label_map.pbtxt'
   ignore_difficult_instances = False
 
   SETS = ['train', 'val', 'trainval', 'test']
